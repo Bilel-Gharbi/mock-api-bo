@@ -1,0 +1,317 @@
+{
+  "users": [
+    {
+      "name": "John Brown",
+      "email": "email@orange.com",
+      "id": "1",
+      "status": true,
+      "roles": ["manager", "user"]
+    },
+    {
+      "name": "Jim Green",
+      "email": "email@orange.com",
+      "id": "2",
+      "status": false,
+      "roles": ["manager", "user"]
+    },
+    {
+      "name": "Joe Black",
+      "email": "email@orange.com",
+      "id": "3",
+      "status": true,
+      "roles": ["manager", "user"]
+    },
+    {
+      "name": "Jim Red",
+      "email": "email@orange.com",
+      "id": "4",
+      "status": true,
+      "roles": ["manager", "user"]
+    }
+  ],
+
+  "roles": [
+    {
+      "name": "role 1",
+      "description": "description role 1",
+      "id": "1",
+      "createdAt": "22/03/2020"
+    },
+    {
+      "name": "role 2",
+      "description": "description role 2",
+      "id": "2",
+      "createdAt": "22/03/2020"
+    },
+
+    {
+      "name": "role 3",
+      "description": "description role 3",
+      "id": "3",
+      "createdAt": "22/03/2020"
+    },
+    {
+      "name": "role 4",
+      "description": "description role 4",
+      "id": "4",
+      "createdAt": "22/03/2020"
+    }
+  ],
+  "admins": [
+    {
+      "name": "admin 1",
+      "role": [
+        { "label": "role 1", "id": "1" },
+        { "label": "role 2", "id": "2" },
+        { "label": "role 3", "id": "3" }
+      ],
+      "email": "email@email.com",
+      "phone": "3344",
+      "id": "1",
+      "createdAt": "22/03/2020"
+    },
+    {
+      "name": "admin 2",
+      "role": [
+        { "label": "role 1", "id": "1" },
+        { "label": "role 2", "id": "2" }
+      ],
+      "email": "email@email.com",
+      "phone": "3344",
+      "id": "2",
+      "createdAt": "22/03/2020"
+    },
+
+    {
+      "name": "admin 3",
+      "role": [{ "label": "role 1", "id": "1" }],
+      "email": "email@email.com",
+      "phone": "3344",
+      "id": "3",
+      "createdAt": "22/03/2020"
+    },
+    {
+      "name": "admin 4",
+      "role": [
+        { "label": "role 1", "id": "1" },
+        { "label": "role 2", "id": "2" },
+        { "label": "role 3", "id": "3" },
+        { "label": "role 4", "id": "4" },
+        { "label": "role 5", "id": "5" }
+      ],
+      "email": "email@email.com",
+      "phone": "3344",
+      "id": "4",
+      "createdAt": "22/03/2020"
+    }
+  ],
+
+  "groups": [
+    {
+      "id": "1",
+      "name": "groupe one",
+      "totalUsers": 5,
+      "createdAt": "22/03/2020",
+      "visibility": true
+    },
+    {
+      "id": "2",
+      "name": "groupe two",
+      "totalUsers": 5,
+      "createdAt": "22/03/2020",
+      "visibility": true
+    },
+    {
+      "id": "3",
+      "name": "groupe three",
+      "totalUsers": 5,
+      "createdAt": "22/03/2020",
+      "visibility": true
+    }
+  ],
+  "menu": [
+    {
+      "name": "Home",
+      "icon": "user",
+      "slug": "home"
+    },
+    {
+      "name": "Gestion des utilisateurs",
+      "icon": "user",
+      "slug": "users-management"
+    },
+    {
+      "name": "Gestion des groups",
+      "icon": "team",
+      "slug": "group-management"
+    },
+
+    {
+      "name": "Gestion des administrateurs",
+      "icon": "user",
+      "slug": "admins-management"
+    },
+    {
+      "name": "Gestion des rôles",
+      "icon": "user",
+      "slug": "roles-management"
+    },
+    {
+      "name": "Gestion du menu dynamique",
+      "icon": "user",
+      "slug": "menu-management"
+    },
+    {
+      "name": "Notification segmentée",
+      "icon": "user",
+      "slug": "users-management/list"
+    },
+    {
+      "name": "Gestion des stories",
+      "icon": "user",
+      "slug": "/users-management/list"
+    },
+    {
+      "name": "Gestion des publication",
+      "icon": "user",
+      "slug": "posts-management"
+    },
+    {
+      "name": "Gestion des vidéos coaching",
+      "icon": "user",
+      "slug": "video-coaching-management"
+    },
+    {
+      "name": "Gestion des quiz / sondage",
+      "icon": "user",
+      "slug": "quiz-management"
+    },
+    {
+      "name": "Gestion des FAQ",
+      "icon": "user",
+      "slug": "/users-management/list"
+    },
+    {
+      "name": "Gestion des E-books",
+      "icon": "user",
+      "slug": "/users-management/list"
+    },
+    {
+      "name": "Configuration",
+      "icon": "user",
+      "slug": "/users-management/list"
+    }
+  ],
+
+  "mobileMenu": [
+    {
+      "id": "1",
+      "name": "menu 1",
+      "slug": "menu-1",
+      "status": false
+    },
+    {
+      "id": "2",
+      "name": "menu 2",
+      "slug": "menu-2",
+      "status": false
+    },
+    {
+      "id": "3",
+      "name": "menu 3",
+      "slug": "menu-3",
+      "status": false
+    }
+  ],
+
+  "quiz": [
+    {
+      "id": "1",
+      "title": "quiz 1",
+      "description": "description 1",
+      "welcomeText": "welcome text 1",
+      "participant": 10,
+      "startDate": "12-02-2021",
+      "endDate": "14-02-2021",
+      "type": "quiz"
+    },
+    {
+      "id": "2",
+      "title": "quiz 2",
+      "description": "description 2",
+      "welcomeText": "welcome text 2",
+      "participant": 10,
+      "startDate": "13-02-2021",
+      "endDate": "14-02-2021",
+      "type": "quiz"
+    },
+    {
+      "id": "3",
+      "title": "s 3",
+      "description": "description 3",
+      "welcomeText": "welcome text 3",
+      "participant": 10,
+      "startDate": "15-02-2021",
+      "endDate": "16-02-2021",
+      "type": "sondage"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "post 1",
+      "type": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 1",
+      "contentUrl": "..."
+    },
+    {
+      "id": "2",
+      "title": "post 2",
+      "type": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 2",
+      "contentUrl": "..."
+    },
+    {
+      "id": "3",
+      "title": "post 3",
+      "type": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 3",
+      "contentUrl": "..."
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "video 1",
+      "type": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 1",
+      "contentUrl": "..."
+    },
+    {
+      "id": "2",
+      "title": "video 2",
+      "type": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 2",
+      "contentUrl": "..."
+    },
+    {
+      "id": "3",
+      "title": "video 3",
+      "type": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 3",
+      "contentUrl": "..."
+    }
+  ]
+}
