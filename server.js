@@ -15,7 +15,7 @@ server.use(
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   })
 );
-server.options("*", cors());
+server.options("*", cors("*"));
 server.use(middleware);
 server.use(router);
 
