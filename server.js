@@ -5,17 +5,17 @@ const middleware = jsonServer.defaults({ noCors: true });
 const port = process.env.PORT || 3000;
 const cors = require("cors");
 
-// server.use(cors("*"));
+server.use(cors("*"));
 
-server.use(
-  cors({
-    origin: true,
-    credentials: true,
-    preflightContinue: false,
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  })
-);
-server.options("*", cors("*"));
+// server.use(
+//   cors({
+//     origin: true,
+//     credentials: true,
+//     preflightContinue: false,
+//     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+//   })
+// );
+// server.options("*", cors("*"));
 server.use(middleware);
 server.use(router);
 
