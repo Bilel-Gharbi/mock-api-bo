@@ -1,11 +1,11 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
-const middleware = jsonServer.defaults({ noCors: true });
+const middleware = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 const cors = require("cors");
 
-server.use(cors({ allowedHeaders: "*", allowOrigins: "*" }));
+server.use(cors("*"));
 
 // server.use(
 //   cors({
