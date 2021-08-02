@@ -153,7 +153,7 @@
     },
     {
       "name": "Gestion des rôles",
-      "icon": "user",
+      "icon": "control",
       "slug": "roles-management"
     },
     {
@@ -189,12 +189,12 @@
     },
     {
       "name": "Gestion des FAQ",
-      "icon": "user",
+      "icon": "question-circle",
       "slug": "/users-management/list"
     },
     {
       "name": "Gestion des E-books",
-      "icon": "user",
+      "icon": "book",
       "slug": "/users-management/list",
       "hidden": true
     },
