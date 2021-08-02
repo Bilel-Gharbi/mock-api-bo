@@ -142,7 +142,7 @@
     },
     {
       "name": "Gestion des groups",
-      "icon": "team",
+      "icon": "usergroup-add",
       "slug": "group-management"
     },
 
