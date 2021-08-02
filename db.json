@@ -332,7 +332,7 @@
     {
       "id": "2",
       "name": "story 2",
-      "storyType": "photo",
+      "storyType": "image",
       "groups": ["group 1", "group 2", "group 3"],
       "groupsId": ["1", "2", "3"],
       "createdAt": "22/03/2020",
