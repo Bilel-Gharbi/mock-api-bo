@@ -169,12 +169,12 @@
     },
     {
       "name": "Gestion des stories",
-      "icon": "user",
+      "icon": "eye",
       "slug": "stories-management"
     },
     {
       "name": "Gestion des publication",
-      "icon": "user",
+      "icon": "container",
       "slug": "posts-management"
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "name": "Gestion des quiz / sondage",
-      "icon": "user",
+      "icon": "check-circle",
       "slug": "quiz-management"
     },
     {
