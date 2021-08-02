@@ -194,7 +194,8 @@
     {
       "name": "Gestion des E-books",
       "icon": "user",
-      "slug": "/users-management/list"
+      "slug": "/users-management/list",
+      "hidden": false
     },
     {
       "name": "Configuration",
