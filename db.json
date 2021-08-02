@@ -262,6 +262,7 @@
       "title": "post 1",
       "type": "video",
       "groups": ["group 1", "group 2", "group 3"],
+      "groupsId": ["1", "2", "3"],
       "createdAt": "22/03/2020",
       "createdBy": "admin 1",
       "contentUrl": "..."
@@ -271,6 +272,7 @@
       "title": "post 2",
       "type": "video",
       "groups": ["group 1", "group 2", "group 3"],
+      "groupsId": ["1", "2", "3"],
       "createdAt": "22/03/2020",
       "createdBy": "admin 2",
       "contentUrl": "..."
@@ -280,6 +282,7 @@
       "title": "post 3",
       "type": "video",
       "groups": ["group 1", "group 2", "group 3"],
+      "groupsId": ["1", "2", "3"],
       "createdAt": "22/03/2020",
       "createdBy": "admin 3",
       "contentUrl": "..."
