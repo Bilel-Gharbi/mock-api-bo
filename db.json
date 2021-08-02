@@ -225,7 +225,6 @@
       "status": false
     }
   ],
-
   "quiz": [
     {
       "id": "1",
@@ -314,6 +313,38 @@
       "title": "video 3",
       "type": "video",
       "groups": ["group 1", "group 2", "group 3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 3",
+      "contentUrl": "..."
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "name": "story 1",
+      "storyType": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "groupsId": ["1", "2", "3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 1",
+      "contentUrl": "..."
+    },
+    {
+      "id": "2",
+      "name": "story 2",
+      "storyType": "photo",
+      "groups": ["group 1", "group 2", "group 3"],
+      "groupsId": ["1", "2", "3"],
+      "createdAt": "22/03/2020",
+      "createdBy": "admin 2",
+      "contentUrl": "..."
+    },
+    {
+      "id": "3",
+      "name": "story 3",
+      "storyType": "video",
+      "groups": ["group 1", "group 2", "group 3"],
+      "groupsId": ["1", "2", "3"],
       "createdAt": "22/03/2020",
       "createdBy": "admin 3",
       "contentUrl": "..."
