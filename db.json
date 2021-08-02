@@ -164,12 +164,13 @@
     {
       "name": "Notification segmentée",
       "icon": "user",
-      "slug": "users-management/list"
+      "slug": "users-management/list",
+      "hidden": true
     },
     {
       "name": "Gestion des stories",
       "icon": "user",
-      "slug": "/users-management/list"
+      "slug": "stories-management"
     },
     {
       "name": "Gestion des publication",
@@ -195,7 +196,7 @@
       "name": "Gestion des E-books",
       "icon": "user",
       "slug": "/users-management/list",
-      "hidden": false
+      "hidden": true
     },
     {
       "name": "Configuration",
