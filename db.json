@@ -132,7 +132,7 @@
   "menu": [
     {
       "name": "Home",
-      "icon": "user",
+      "icon": "home",
       "slug": "home"
     },
     {
@@ -148,7 +148,7 @@
 
     {
       "name": "Gestion des administrateurs",
-      "icon": "user",
+      "icon": "crown",
       "slug": "admins-management"
     },
     {
@@ -158,12 +158,12 @@
     },
     {
       "name": "Gestion du menu dynamique",
-      "icon": "user",
+      "icon": "menu",
       "slug": "menu-management"
     },
     {
       "name": "Notification segmentée",
-      "icon": "user",
+      "icon": "notification",
       "slug": "users-management/list",
       "hidden": true
     },
@@ -179,7 +179,7 @@
     },
     {
       "name": "Gestion des vidéos coaching",
-      "icon": "user",
+      "icon": "video-camera",
       "slug": "video-coaching-management"
     },
     {
@@ -200,7 +200,7 @@
     },
     {
       "name": "Configuration",
-      "icon": "user",
+      "icon": "experiment",
       "slug": "/users-management/list"
     }
   ],
