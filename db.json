@@ -352,6 +352,7 @@
   ],
   "address": [
     {
+      "id": "6131f0eb069de70734884bf1",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -370,6 +371,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf2",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -388,6 +390,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf3",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -406,6 +409,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf4",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -424,6 +428,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf5",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -442,6 +447,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf6",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -460,6 +466,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf7",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -478,6 +485,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf8",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -496,6 +504,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf9",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -514,6 +523,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf10",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -532,6 +542,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf11",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -550,6 +561,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf12",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -568,6 +580,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf13",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -586,6 +599,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf14",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -604,6 +618,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf15",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -622,6 +637,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf16",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -640,6 +656,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf17",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -658,6 +675,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf18",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -676,6 +694,7 @@
       "postal_box": ""
     },
     {
+      "id": "6131f0eb069de70734884bf19",
       "company": "Orange",
       "country": "Cote d'ivoire",
       "city": "Daloa",
@@ -694,6 +713,7 @@
       "postal_box": ""
     }
   ],
+
   "booking": [
     {
       "id": "6131f0eb069de70734884bf1",
@@ -729,7 +749,7 @@
       "resourcemanagers": [
         {
           "resource": {
-            "id": "6131f0eb069de70734884bf1",
+            "id": "6131f0eb069de70734884bf14",
             "name": "name 1",
             "resource_allowed_reservation": 1,
             "resource_type": 1,
@@ -790,7 +810,7 @@
       "resourcemanagers": [
         {
           "resource": {
-            "id": "6131f0eb069de70734884bf1",
+            "id": "6131f0eb069de70734884bf12",
             "name": "name 1",
             "resource_allowed_reservation": 1,
             "resource_type": 1,
@@ -851,7 +871,7 @@
       "resourcemanagers": [
         {
           "resource": {
-            "id": "6131f0eb069de70734884bf1",
+            "id": "6131f0eb069de70734884bf13",
             "name": "name 1",
             "resource_allowed_reservation": 1,
             "resource_type": 1,
